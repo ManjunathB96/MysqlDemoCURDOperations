@@ -1,31 +1,22 @@
 import Sequelize from 'sequelize';
-import logger from '../config/logger';
-
 import dotenv from 'dotenv';
 dotenv.config();
+import logger from '../config/logger';
 
 export { DataTypes } from 'sequelize';
 
-let DATABASE = process.env.DATABASE;
-let USERNAME = process.env.USERNAME;
-let PASSWORD = process.env.PASSWORD;
+
 let HOST = process.env.HOST;
 let PORT = process.env.PORT;
-let DIALECT = process.env.DIALECT;
+let USERNAME = process.env.USERNAME;
+let PASSWORD = process.env.PASSWORD;
+let DATABASE = process.env.DATABASE;
 
-if (process.env.NODE_ENV === 'test') {
-  DATABASE = process.env.DATABASE_TEST;
-  USERNAME = process.env.USERNAME_TEST;
-  PASSWORD = process.env.PASSWORD_TEST;
-  HOST = process.env.HOST_TEST;
-  PORT = process.env.PORT_TEST;
-  DIALECT = process.env.DIALECT_TEST;
-}
 
-const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
+const sequelize = new Sequelize('mysqlcurdoperations', 'root', 'M@anju#9@44@9', {
   host: HOST,
+  dialect: 'mysql',
   port: PORT,
-  dialect: DIALECT,
   pool: {
     max: 5,
     min: 0,
@@ -33,6 +24,7 @@ const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
     idle: 10000
   }
 });
+
 
 sequelize
   .authenticate()

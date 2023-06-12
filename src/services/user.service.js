@@ -1,5 +1,6 @@
 import sequelize, { DataTypes } from '../config/database';
-const User = require('../models/user')(sequelize, DataTypes);
+const User = require('../models/user').default(sequelize, DataTypes);
+const bcrypt = require('bcrypt');
 
 //get all users
 export const getAllUsers = async () => {
@@ -9,9 +10,23 @@ export const getAllUsers = async () => {
 
 //create new user
 export const newUser = async (body) => {
-  const data = await User.create(body);
-  return data;
+  console.log(body);
+  const exist = await User.findOne({ where: { email: body.email } });
+  if (exist == null) {
+    const newUser = {
+      firstName: body.firstName,
+      lastName: body.lastName,
+      email: body.email,
+      password: await bcrypt.hash(body.password, 10)
+    };
+    const data = await User.create(newUser);
+    return data;
+  } else {
+    throw new Error('User already exists');
+  }
 };
+
+
 
 //update single user
 export const updateUser = async (id, body) => {

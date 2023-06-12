@@ -1,0 +1,217 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:52:15.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:52:33.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:52:38.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:53:39.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:54:16.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:54:29.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:56:26.491Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T13:56:35.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T13:56:47.831Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hashSync (D:\Mysql\CURDOperations\node_modules\bcrypt\bcrypt.js:91:15)
+    at _callee$ (D:\Mysql\CURDOperations\src\services\/user.service.js:20:33)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (D:\Mysql\CURDOperations\src\services\/user.service.js:19:21)
+    at _callee3$ (D:\Mysql\CURDOperations\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newUser (D:\Mysql\CURDOperations\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Mysql\CURDOperations\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at D:\Mysql\CURDOperations\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T13:56:50.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:06:14.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:11:31.677Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:34:11.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:34:51.229Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:34:51.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:38:23.546Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:38:23.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:39:40.024Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:39:40.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:39:47.615Z"}
+error: Could not connect to the database. Access denied for user 'ROOT'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'ROOT'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'ROOT'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'ROOT'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:39:47.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:39:50.516Z"}
+error: Could not connect to the database. Access denied for user ''@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user ''@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user ''@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:39:50.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:39:55.348Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:39:55.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:40:12.755Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:40:12.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:48:25.774Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:48:25.841Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:50:03.287Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:50:03.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:50:23.538Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:50:23.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:50:26.401Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:50:26.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:50:30.419Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-12T15:50:30.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:50:45.737Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:50:45.829Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.verify (D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:101:10)
+    at _callee$ (D:\Mysql\CURDOperations\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Mysql\CURDOperations\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Mysql\CURDOperations\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at D:\Mysql\CURDOperations\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:231:16)
+    at done (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-12T15:51:48.684Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.verify (D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:101:10)
+    at _callee$ (D:\Mysql\CURDOperations\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Mysql\CURDOperations\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Mysql\CURDOperations\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at D:\Mysql\CURDOperations\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:231:16)
+    at done (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12) 
+    url - /api/v1/users/2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-12T15:52:57.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:53:25.783Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:53:25.867Z"}
