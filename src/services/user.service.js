@@ -13,19 +13,14 @@ export const newUser = async (body) => {
   console.log(body);
   const exist = await User.findOne({ where: { email: body.email } });
   if (exist == null) {
-    const newUser = {
-      firstName: body.firstName,
-      lastName: body.lastName,
-      email: body.email,
-      password: await bcrypt.hash(body.password, 10)
-    };
-    const data = await User.create(newUser);
+    const hashpassword = bcrypt.hashSync(body.password, 10);
+    body.password = hashpassword;
+    const data = await User.create(body);
     return data;
   } else {
     throw new Error('User already exists');
   }
 };
-
 
 
 //update single user

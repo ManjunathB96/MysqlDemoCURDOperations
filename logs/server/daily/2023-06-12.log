@@ -215,3 +215,120 @@ error:
    {"timestamp":"2023-06-12T15:52:57.793Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:53:25.783Z"}
 info: Connected to the database. {"timestamp":"2023-06-12T15:53:25.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T15:57:23.605Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:57:23.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:00:54.997Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:00:55.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:00:58.467Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:00:58.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:01:17.364Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:01:17.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:01:20.200Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:01:20.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:01:26.898Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:01:26.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:01:53.365Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:01:53.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:02:07.358Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:02:07.440Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (D:\Mysql\CURDOperations\src\services\/user.service.js:27:11)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T16:02:20.961Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (D:\Mysql\CURDOperations\src\services\/user.service.js:27:11)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T16:02:35.492Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (D:\Mysql\CURDOperations\src\services\/user.service.js:27:11)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T16:02:38.123Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.verify (D:\Mysql\CURDOperations\node_modules\jsonwebtoken\verify.js:101:10)
+    at _callee$ (D:\Mysql\CURDOperations\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Mysql\CURDOperations\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Mysql\CURDOperations\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Mysql\CURDOperations\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Mysql\CURDOperations\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Mysql\CURDOperations\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:328:13)
+    at D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Mysql\CURDOperations\node_modules\express\lib\router\index.js:280:10)
+    at D:\Mysql\CURDOperations\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:231:16)
+    at done (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Mysql\CURDOperations\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12) 
+    url - /api/v1/users/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-12T16:02:57.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-12T16:04:34.306Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:04:34.391Z"}
