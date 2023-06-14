@@ -12,7 +12,7 @@ router.get('', userController.getAllUsers);
 router.post('', userController.newUser);
 
 //route to get a single user by their user id
-router.get('/:id', userAuth, userController.getUser);
+router.get('/:id', userController.getUser);
 
 //route to update a single user by their user id
 router.put('/:id', userController.updateUser);

@@ -22,7 +22,6 @@ export const newUser = async (body) => {
   }
 };
 
-
 //update single user
 export const updateUser = async (id, body) => {
   await User.update(body, {

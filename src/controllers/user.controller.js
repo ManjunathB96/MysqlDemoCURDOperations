@@ -85,7 +85,7 @@ export const updateUser = async (req, res, next) => {
  */
 export const deleteUser = async (req, res, next) => {
   try {
-    await UserService.updateUser(req.params.id);
+    await UserService.deleteUser(req.params.id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: [],
