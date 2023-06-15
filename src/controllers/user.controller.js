@@ -16,7 +16,10 @@ export const getAllUsers = async (req, res, next) => {
       message: 'All users fetched successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -35,7 +38,10 @@ export const getUser = async (req, res, next) => {
       message: 'User fetched successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -54,7 +60,10 @@ export const newUser = async (req, res, next) => {
       message: 'User created successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -73,7 +82,10 @@ export const updateUser = async (req, res, next) => {
       message: 'User updated successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -92,6 +104,9 @@ export const deleteUser = async (req, res, next) => {
       message: 'User deleted successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };

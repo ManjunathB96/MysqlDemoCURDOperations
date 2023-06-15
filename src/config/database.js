@@ -13,7 +13,7 @@ let PASSWORD = process.env.PASSWORD;
 let DATABASE = process.env.DATABASE;
 
 
-const sequelize = new Sequelize('mysqlcurdoperations', 'root', 'M@anju#9@44@9', {
+const sequelize = new Sequelize(DATABASE, 'root', PASSWORD, {
   host: HOST,
   dialect: 'mysql',
   port: PORT,

@@ -1,0 +1,16 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:43:14.534Z"}
+info: Connected to the database. {"timestamp":"2023-06-15T17:43:14.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:43:59.553Z"}
+info: Connected to the database. {"timestamp":"2023-06-15T17:43:59.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:44:21.578Z"}
+error: Could not connect to the database. Access denied for user 'Levono'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'Levono'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'Levono'@'localhost' (using password: YES)\n    at ConnectionManager.connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at D:\\Mysql\\CURDOperations\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2023-06-15T17:44:21.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:44:27.750Z"}
+info: Connected to the database. {"timestamp":"2023-06-15T17:44:27.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:46:37.584Z"}
+info: Connected to the database. {"timestamp":"2023-06-15T17:46:37.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:46:51.745Z"}
+info: Connected to the database. {"timestamp":"2023-06-15T17:46:51.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:46:56.865Z"}
+info: Connected to the database. {"timestamp":"2023-06-15T17:46:56.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-06-15T17:47:02.580Z"}
+info: Connected to the database. {"timestamp":"2023-06-15T17:47:02.691Z"}

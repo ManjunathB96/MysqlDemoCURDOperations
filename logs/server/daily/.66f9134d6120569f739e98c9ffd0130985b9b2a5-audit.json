@@ -14,6 +14,11 @@
             "date": 1686711578899,
             "name": "logs\\server\\daily\\2023-06-14.log",
             "hash": "ff9dd9ad5888ca80936f1bb48b2c561f9f072a3a777ab64f5a0337d2f4013b59"
+        },
+        {
+            "date": 1686850993390,
+            "name": "logs\\server\\daily\\2023-06-15.log",
+            "hash": "8c68c1a7dd4c5dd9e2ffb6a46a7f256bedad5467946e542d3311d459352edea4"
         }
     ],
     "hashType": "sha256"
